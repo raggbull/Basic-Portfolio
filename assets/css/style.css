@@ -8,17 +8,12 @@ body {
 }
 
 
-/* Main Page */
-
-/* Sticky Footer */
 
 #container {
     height: 100%;
     width: 960px;
     border:1px solid #dddddd;
-}
 
-/* General Styling */
 section {
 
     #full{
@@ -207,81 +202,3 @@ form{
     background-color: #ffffff;
     font-size: 13px;
 }
-
-
-/* Contact */
-
-/*/*/*/*/#contact ul {*/*/
-*/*/  margin-bottom: 20px;
-}
-
-#contact li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
-}*/
-
-/* Portfolio */
-
-.work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
-.work img {
-  width: 100%;
-  border: 0 none;
-  opacity: 0.8;
-}
-
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #fff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
-  font-family: "Georgia";
-  font-size: 22px;
-}
-
